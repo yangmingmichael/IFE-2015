@@ -1,0 +1,14 @@
+.center{
+      width:960px;
+      background-color: red;;
+      margin:0 auto;
+  }
+.first-list{
+    /*margin:0 auto;这是方法一*/
+    background-color:red;
+    width:960px;
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
