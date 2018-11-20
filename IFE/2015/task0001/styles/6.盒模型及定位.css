@@ -1,19 +1,27 @@
 .body{
      position:relative;
+     display: table;
  }
 .center{
     width:960px;
     background-color: red;;
     margin:0 auto;
 }
-.first-list{
+.first-list {
+    text-align: center;
     /*margin:0 auto;这是方法一*/
-    background-color:red;
-    width:960px;
-    position:absolute;
-    left:50%;
-    /*top:70%;*/
-    /*transform: translate(-50%,-50%);*/
-    /*沿着x轴移动*/
+    background-color: red;
+    width: 960px;
+    position: absolute;
+    left: 50%;
+    /*/!*top:70%;*!/*/
+    /*/!*transform: translate(-50%,-50%);*!/*/
+    /*/!*沿着x轴移动*!/*/
     margin-left: -480px;
+    /*display:table-cell;*/
+    /*vertical-align: middle;*/
 }
+table{
+    margin:0 auto;
+}
+
