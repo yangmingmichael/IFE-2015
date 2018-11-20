@@ -1,0 +1,24 @@
+.warp{
+    position:relative;
+    margin:0;
+}
+.a{
+    width: 200px;
+    height:400px;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color: red;
+}
+.b{
+    height:400px;
+    background-color: blue;
+}
+.c{
+    height:400px;
+    background-color: yellow;
+    clear:left;
+    left:0;
+}
+/*·¨Ò»*/
+
